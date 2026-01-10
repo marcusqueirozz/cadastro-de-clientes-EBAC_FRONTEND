@@ -41,6 +41,7 @@ addButton.addEventListener("click", ()=> {
         })
 })
 
+// DELETE
 function remove(_id) {
     
     fetch(`https://crudcrud.com/api/${crudCrud}/users/${_id}`, {
